@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>BioTrainer</title>
+</head>
+<body style="margin: 0; padding: 0;">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="font-family: Arial, sans-serif;">
+        <!-- Header -->
+        <tr>
+            <td bgcolor="#4CAF50" style="padding: 20px 0; text-align: center;">
+                <h1 style="color: white; margin: 0;">BioTrainer</h1>
+            </td>
+        </tr>
+
+        <!-- Content -->
+        <tr>
+            <td bgcolor="#f9f9f9" style="padding: 40px 30px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="color: #333333; font-size: 24px; padding-bottom: 20px;">
+                            {{Titolo Email}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #333333; font-size: 16px; line-height: 24px; padding-bottom: 20px;">
+                            Ciao {{Nome}},
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #333333; font-size: 16px; line-height: 24px; padding-bottom: 20px;">
+                            {{Contenuto principale dell'email}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 30px 0;">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td bgcolor="#4CAF50" style="border-radius: 5px;">
+                                        <a href="{{URL_AZIONE}}" style="color: white; text-decoration: none; padding: 12px 25px; display: inline-block;">{{Testo del pulsante}}</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #333333; font-size: 16px; line-height: 24px;">
+                            {{Chiusura dell'email}}
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td bgcolor="#333333" style="padding: 20px 30px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="color: white; font-size: 14px; text-align: center;">
+                            &copy; 2024 BioTrainer. Tutti i diritti riservati.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
